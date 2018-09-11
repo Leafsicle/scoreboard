@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scoreboard</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+
+<body class="container">
+  <Header>
+    <h1> My score board
+    </h1>
+  </Header>
+  <main class="scorearea">
+    <div class="team1container">
+      <aside class="team1 score">
+        <h2>team name</h2>
+        <P class="score1">score value</P>
+      </aside>
+      <main class="teaminput">
+        <div class="teaminput1">
+          <div class="field">
+            <p>update team 1 name</p>
+            <fieldset>blank</fieldset>
+            <button>Update team name</button>
+          </div>
+          <div class="scoremod">
+            <p>Update team 1 score</p>
+            <button class="addteam1">add 1</button>
+            <button class="subteam1">subtract 1</button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="team2container">
+      <aside class="team2 score">
+        <h2>team name</h2>
+        <P class="score2">score value</P>
+      </aside>
+      <main class="teaminput">
+        <div class="teaminput2">
+          <div class="field">
+            <p>update team 2 name</p>
+            <fieldset>blank</fieldset>
+            <button>Update team name</button>
+          </div>
+          <div class="scoremod">
+            <p>Update team 2 score</p>
+            <button class="addteam2">add 1</button>
+            <button class="subteam2">subtract 1</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </main>
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
 </html>

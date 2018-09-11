@@ -4,6 +4,39 @@ html {
 
 body {
   margin: 0;
+  padding: none;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
+}
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.scorearea {
+  display: flex;
+  border: 5px solid lawngreen;
+  padding: 10px;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid fuchsia;
+  padding: 20px;
+  margin-top: -50px;
+}
+.team1container {
+  padding: 100px;
+  border: 2px solid red;
+}
+.team2container {
+  padding: 100px;
+  border: 2px solid red;
+}
+.scoremod {
+  display: flex;
+}
+button {
 }
