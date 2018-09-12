@@ -1,7 +1,6 @@
 html {
   height: 100%;
 }
-
 body {
   margin: 0;
   padding: none;
@@ -16,27 +15,26 @@ body {
 }
 .scorearea {
   display: flex;
-  border: 5px solid lawngreen;
-  padding: 10px;
 }
-.score {
+.team1 {
+  border: 3px solid fuchsia;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.team2 {
+  border: 3px solid fuchsia;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.scoreboard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid fuchsia;
-  padding: 20px;
-  margin-top: -50px;
-}
-.team1container {
-  padding: 100px;
-  border: 2px solid red;
-}
-.team2container {
-  padding: 100px;
-  border: 2px solid red;
-}
-.scoremod {
-  display: flex;
+  border: 3px solid lawngreen;
 }
 button {
+  border-radius: 4px;
+  max-height: 50px;
 }
